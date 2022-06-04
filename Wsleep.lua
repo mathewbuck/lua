@@ -10,4 +10,5 @@ end
 print("Hello")
 Wsleep(2)
 print("Two second pause")
-
+Wsleep(1)
+os.exit()
