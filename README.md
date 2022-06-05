@@ -1,5 +1,5 @@
 # Lua
-collection of lua modules & scripts
+collection of Lua modules & scripts
 
 ***Modules:***
 1. fish.lua
