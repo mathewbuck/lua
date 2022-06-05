@@ -1,12 +1,10 @@
---[[
---*****************************************************************************************************
---* Small module to add Unix 'clear' & 'sleep(x)' functions to Lua scripts                            *
---* Module will auto detect the user's system, if Unix/Linux/MacOS/Android{Termux}                    *
---*               OR                                                                                  *
---*             Windows                                                                               *
---*      sleep(x)  x-is always in seconds                                                             *
---*****************************************************************************************************
---]]
+
+-- Small module to add Unix 'clear' & 'sleep(x)' functions to Lua scripts
+-- Module will auto detect the user's system, if Unix/Linux/MacOS/Android{Termux}
+-- OR
+-- Windows
+-- Sleep(x)  x-is always in seconds
+--
 
 
 local fish = {}
