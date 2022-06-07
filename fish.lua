@@ -65,6 +65,10 @@ function fish.cyan(hut7)
   print('\27[36m'..hut7)
 end
 
+function fish.reset()
+	print('\27[0m')
+end
+
 	
 return fish
 
