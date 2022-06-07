@@ -1,12 +1,10 @@
-
+-----------------------------------------------------------------------------------
 -- Small module to add Unix 'clear' & 'sleep(x)' functions to Lua scripts
 -- Module will auto detect the user's system, if Unix/Linux/MacOS/Android{Termux}
 -- OR
 -- Windows
 -- Sleep(x)  x-is always in seconds
---
-
-
+-----------------------------------------------------------------------------------
 local fish = {}
 
 usrOS = (package.config:sub(1,1))
@@ -31,6 +29,9 @@ if usrOS == '/' then
 	end
 end
 	
+
+-- Change print color functions:
+-- This is implemented messy AF, I'll improve this as the project is consumed more.
 
 function fish.red(hut)
   print( '\27[31m'..hut)
