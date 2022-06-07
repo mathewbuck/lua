@@ -1,6 +1,6 @@
 # Lua
 fish.lua purpose:  Streamline development of console applications by implementing common used tools 
-in an efficient s way
+in an efficient way
 
 ***Module:***
 1. fish.lua
