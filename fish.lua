@@ -31,6 +31,39 @@ if usrOS == '/' then
 	end
 end
 	
+
+function fish.red(hut)
+  print( '\27[31m'..hut)
+end
+
+function fish.blue(hut1)
+  print('\27[34m'..hut1)
+end
+
+function fish.magenta(hut2)
+  print('\27[35m'..hut2)
+end
+
+function fish.green(hut3)
+  print('\27[32m'..hut3)
+end
+
+function fish.yellow(hut4)
+  print('\27[33m'..hut4)
+end
+
+function fish.black(hut5)
+  print('\27[30m'..hut5)
+end
+
+function fish.white(hut6)
+  print('\27[37m'..hut6)
+end
+
+function fish.cyan(hut7)
+  print('\27[36m'..hut7)
+end
+
 	
 return fish
 
