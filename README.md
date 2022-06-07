@@ -8,7 +8,7 @@ in an efficient way
     - fish.sleep(x) -- Pauses the application by x (seconds)
     - fish.red(string) -- Prints string to console in red
     - Available fish colors: red, blue, green, yellow, magenta, cyan, black, white.
-    - Coming soon: fish.color.reset, fish.rainbow(string)
+    - Coming soon: fish.color.reset() & fish.rainbow(string)
 
 
 # Example
