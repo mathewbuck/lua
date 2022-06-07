@@ -1,5 +1,5 @@
 # Lua
-fish.lua: Purpose is to ease development of console applications by implementing common used tools 
+fish.lua purpose:  Streamline development of console applications by implementing common used tools 
 in an efficient s way
 
 ***Module:***
