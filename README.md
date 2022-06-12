@@ -1,5 +1,5 @@
 
-# <>< Fish
+# <º)))>< fish
 
 
 fish.lua purpose:  Streamline development of console applications by implementing common used tools 
