@@ -1,5 +1,5 @@
 
-# Lua
+# <>< Fish
 
 
 fish.lua purpose:  Streamline development of console applications by implementing common used tools 
@@ -14,7 +14,7 @@ in an efficient way
     - fish.reset() --resets color back to default
     - Available fish colors: red, blue, green, yellow, magenta, cyan, black, white.
     - Coming soon: fish.rainbow(string) & background color options.
-    - 
+    - fish.typewrite(string)
 
 
 # Example
