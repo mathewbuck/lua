@@ -1,10 +1,4 @@
------------------------------------------------------------------------------------
--- Small module to add Unix 'clear' & 'sleep(x)' functions to Lua scripts
--- Module will auto detect the user's system, if Unix/Linux/MacOS/Android{Termux}
--- OR
--- Windows
--- Sleep(x)  x-is always in seconds
------------------------------------------------------------------------------------
+
 local fish = {}
 
 usrOS = (package.config:sub(1,1))
@@ -18,6 +12,14 @@ if usrOS == '/' then
 	function fish.sleep(n)
 		os.execute('sleep ' .. tonumber(n))
 		end
+	function fish.typewrite(message)
+		for i = 1, #message do
+                local c = message:sub(i,i)
+                io.write(c)
+                io.flush()
+                fish.sleep(.07) --Adjust time for faster / slower Type-writer
+	end
+	
 	else
 	
 	function fish.clear()
@@ -27,6 +29,7 @@ if usrOS == '/' then
 	function fish.sleep(s)
 		os.execute('timeout ' .. tonumber(s) .. ' /nobreak >nul')
 	end
+		--Windows Type-writer will be released soon.
 end
 	
 
